@@ -8,7 +8,7 @@
 export default {
   name: "Vendor",
   props: {
-    listing: Object,
+    listing: { name: String },
   },
 };
 </script>
